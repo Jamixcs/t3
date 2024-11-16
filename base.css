@@ -1,0 +1,23 @@
+* {
+    /* outline: 0.8px solid tomato; */
+}
+:root {
+    --theme-color: #406525;
+    --subtopic-color: #DCE9D1;
+    --base-pimary:#4B4B4B;
+    --base-secondary:#9CB189;
+    --text-pimary:#F6F8D2;
+    --text-secondary:#816241;
+    --text-info:#809193;
+    --decorative-pimary:#3B7218;
+    --accent-pimary:#325a2a;
+    --accent-secondary:#BBCDAA;
+}
+body {
+    background-image: url("./img/bg-body.jpg");
+}
+.container_modify {
+    max-width: 953px;
+    min-width: 320px;
+    background-color: var(--theme-color);
+}
